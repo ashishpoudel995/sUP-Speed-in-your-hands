@@ -1,0 +1,40 @@
+body {
+  width: 250px;
+  text-align: center;
+}
+.content {
+  font-size: 14px;
+  font-weight: bold;
+}
+.connections {
+  font-weight: bold;
+}
+.connections i {
+  font-size: 20px;
+}
+.connections i:hover {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.heading {
+  display: flex;
+  margin-left: 8px;
+}
+.heading b {
+  font-size: 16px;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 5px 8px 5px 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}

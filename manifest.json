@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "sUP",
+    "version": "1.0.0",
+    "author":"Ashish Poudel",
+    "description": "sUP-Playback in your hands",
+    "icons": {
+        "16": "logo/logo_16.png",
+        "48": "logo/logo_48.png",
+        "128": "logo/logo_128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js" :["ContentScript.js"]
+        }
+    ],
+    "permissions" :["tabs"],
+    "browser_action":{
+        "default_popup": "PopUp.html",
+        "default_title": "sUP - Speed in your hands"
+    }
+}
