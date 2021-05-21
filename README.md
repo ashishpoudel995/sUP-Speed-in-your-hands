@@ -9,3 +9,5 @@ Extension to change playback speed of any video.
 5. Click on "Load Unpacked".
 6. Select the cloned folder.
 7. And yaay ! The setup is done.
+
+![image](https://user-images.githubusercontent.com/53949374/119147201-17e3bc80-ba6b-11eb-9462-fc38c3494e96.png)
